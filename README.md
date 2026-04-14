@@ -2,16 +2,16 @@
 
 ## 📊 Project Overview
 
-This project focuses on analyzing Bitcoin price trends and predicting future prices using Time Series Forecasting techniques. It covers the complete data pipeline from data preprocessing to visualization and forecasting.
+This project focuses on analyzing Bitcoin price trends and predicting future prices using Time Series Forecasting techniques. It covers the complete pipeline from data cleaning to visualization and forecasting using ARIMA and Prophet models.
 
 ---
 
 ## 🎯 Objectives
 
 * Analyze historical Bitcoin price data
-* Understand trends, patterns, and volatility
-* Build forecasting models to predict future prices
-* Create an interactive dashboard for visualization
+* Understand trends and volatility
+* Build forecasting models
+* Create an interactive dashboard
 
 ---
 
@@ -31,13 +31,18 @@ This project focuses on analyzing Bitcoin price trends and predicting future pri
 ```
 crypto-time-series-project/
 │
-├── data/                  # Dataset
-├── notebooks/             # Jupyter notebooks for analysis
+├── data/
+├── notebooks/
 ├── src/
-│   └── app.py             # Streamlit dashboard
+│   └── app.py
+├── assets/
+│   ├── dashboard.png
+│   ├── price_trend.png
+│   ├── moving_avg.png
+│   ├── volatility.png
+│   ├── forecast.png
 ├── requirements.txt
 ├── README.md
-├── dashboard.png          # Screenshot of dashboard
 ```
 
 ---
@@ -48,62 +53,72 @@ crypto-time-series-project/
 
 * Removed unnecessary rows
 * Handled missing values
-* Converted data into proper numeric format
+* Converted data types
 
-### 2. Time Series Preparation
-
-* Created a date column
-* Converted data into time-based format
-
-### 3. Exploratory Data Analysis (EDA)
+### 2. Exploratory Data Analysis (EDA)
 
 * Visualized price trends
 * Calculated moving averages (MA_3, MA_5)
-* Analyzed volatility (risk)
-* Generated correlation matrix
+* Analyzed volatility
+* Performed correlation analysis
 
-### 4. Forecasting Models
+### 3. Forecasting Models
 
-#### 🔹 ARIMA Model
+#### 🔹 ARIMA
 
 * Used for basic time series forecasting
-* Predicted short-term future prices
 
-#### 🔹 Prophet Model
+#### 🔹 Prophet
 
-* Advanced forecasting model
-* Captures trend and patterns automatically
-* Provides more realistic predictions
+* Used for advanced forecasting with trend detection
 
 ---
 
-## 📈 Dashboard
+## 📈 Dashboard Features
 
-An interactive dashboard was created using Streamlit that displays:
-
-* Bitcoin price trend
-* Moving averages
-* Forecast predictions
-
----
-
-## 🖼️ Dashboard Preview
-
-![Dashboard](dashboard.png)
+* Price Trend Visualization
+* Moving Average Analysis
+* Volatility Analysis
+* Forecast Predictions
 
 ---
 
-## ▶️ How to Run the Project
+## 🖼️ Project Screenshots
 
-1. Install required libraries:
+### 📊 Dashboard
+
+![Dashboard](assets/dashboard.png)
+
+---
+
+### 📈 Price Trend
+
+![Bitcoinprice](assets/bitcoinprice.png)
+
+---
+
+### 📊 Moving Average
+
+![MovingAverage](assets/movingaverage.png)
+
+---
+
+### 📉 Volatility
+
+![HeatMap](assets/heatmap.png)
+
+---
+
+### 🔮 Forecast (Prophet)
+
+![BitCoinForecastProphet](assets/bitcoinforecastprophet.png)
+
+---
+
+## ▶️ How to Run
 
 ```bash
 pip install -r requirements.txt
-```
-
-2. Run the dashboard:
-
-```bash
 streamlit run src/app.py
 ```
 
@@ -111,25 +126,23 @@ streamlit run src/app.py
 
 ## 📊 Results
 
-* Successfully analyzed Bitcoin price trends
-* Built forecasting models (ARIMA & Prophet)
-* Developed an interactive dashboard for visualization
+* Successfully analyzed Bitcoin trends
+* Built ARIMA & Prophet models
+* Created interactive dashboard
 
 ---
 
 ## 💡 Key Learnings
 
-* Time Series Analysis fundamentals
-* Forecasting using ARIMA and Prophet
-* Data visualization techniques
-* Building dashboards using Streamlit
+* Time Series Analysis
+* Forecasting techniques
+* Data visualization
+* Streamlit dashboard development
 
 ---
 
 ## 🚀 Future Improvements
 
-* Add LSTM model for deep learning prediction
-* Use real-time cryptocurrency API
+* Add LSTM model
+* Use real-time API data
 * Deploy dashboard online
-
----

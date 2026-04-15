@@ -87,31 +87,31 @@ crypto-time-series-project/
 
 ### 📊 Dashboard
 
-![Dashboard](assets/dashboard.png)
+<img width="1543" height="866" alt="Dashboard" src="https://github.com/user-attachments/assets/c1b274e9-ca7a-4cbc-82a1-c3ea37371487" />
 
----
-
+--- 
 ### 📈 Price Trend
 
-![Bitcoinprice](assets/bitcoinprice.png)
+<img width="958" height="707" alt="Bitcoinprice" src="https://github.com/user-attachments/assets/442a38c4-3f0c-4d72-b48b-ad0fe945ef44" />
 
 ---
 
 ### 📊 Moving Average
 
-![MovingAverage](assets/movingaverage.png)
+
+<img width="914" height="674" alt="MovingAverage " src="https://github.com/user-attachments/assets/91fefac2-31e2-456c-81e3-bcbe32a509c0" />
 
 ---
 
-### 📉 Volatility
+### HeatMap 
 
-![HeatMap](assets/heatmap.png)
+<img width="1916" height="1020" alt="HeatMap" src="https://github.com/user-attachments/assets/c47f8c40-bce2-403c-86fd-c7c2ef095eb6" />
 
 ---
 
 ### 🔮 Forecast (Prophet)
 
-![BitCoinForecastProphet](assets/bitcoinforecastprophet.png)
+<img width="1919" height="1021" alt="BitCoin Forecast Prophet" src="https://github.com/user-attachments/assets/15bf4b5e-3b7f-4c01-8ba1-541af755ca48" />
 
 ---
 

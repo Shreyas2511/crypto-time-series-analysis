@@ -74,6 +74,16 @@ crypto-time-series-project/
 
 ---
 
+### 🔹 LSTM (Deep Learning Model)
+
+A Long Short-Term Memory (LSTM) neural network was implemented to capture long-term dependencies in Bitcoin price data.
+
+- Used past 60 days of data to predict next price
+- Applied MinMax scaling for normalization
+- Built stacked LSTM layers for better learning
+- Compared predicted values with actual prices
+
+
 ## 📈 Dashboard Features
 
 * Price Trend Visualization

@@ -115,6 +115,13 @@ crypto-time-series-project/
 
 ---
 
+### 🤖 LSTM (Deep Learning Prediction)
+<img width="1077" height="574" alt="image" src="https://github.com/user-attachments/assets/bd5349be-a87b-4df9-92f2-6f913005d9b8" />
+
+
+----
+
+
 ## ▶️ How to Run
 
 ```bash
